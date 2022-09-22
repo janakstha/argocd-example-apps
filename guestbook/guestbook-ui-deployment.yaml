@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: guestbook-ui
-  namespace: app02
+  namespace: app01
 spec:
   replicas: 2
   revisionHistoryLimit: 3
